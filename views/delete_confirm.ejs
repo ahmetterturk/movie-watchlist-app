@@ -1,0 +1,14 @@
+<%- include("partials/header") %> 
+<div class="container" id="delete_confirm">
+    <div>
+
+        <h1>Are you sure you want to remove " <%= movie.name %> "? </h1>
+
+        <form action="/movies/<%= movie._id %>?_method=DELETE " method="post">
+            <a class="btn btn-outline-success" href="/movies/<%= movie._id %>">Go Back</a>
+            <button class="btn btn-outline-danger">Delete</button>
+        </form>
+
+    </div>
+</div>
+<%- include("partials/footer") %> 

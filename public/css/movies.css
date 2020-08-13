@@ -1,0 +1,56 @@
+i{
+    padding-right: 10px;
+}
+
+h1{
+    font-family: 'Patua One', cursive;
+}
+
+.fa-edit {
+    font-size: 2em;
+    float: right;
+    color: black;
+}
+
+.fa-trash-alt{
+    font-size: 2em;
+    color: red;
+    float: right;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-section:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#index{
+    margin-top: 100px;
+}
+#edit {
+    margin-top: 100px;
+    width: 800px;
+}
+#new {
+    margin-top: 100px;
+    width: 800px;
+}
+#show {
+    margin-top: 100px;
+}
+#delete_confirm{
+    margin-top: 200px;
+}

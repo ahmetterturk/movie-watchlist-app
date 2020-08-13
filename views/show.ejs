@@ -1,0 +1,27 @@
+<%- include("partials/header") %> 
+<div class="container" id="show">
+
+    <div class="row">
+
+        <div class="col col-lg-12">
+            <h1><%= movie.name %> </h1>
+        </div>
+        <hr>
+        <div class="col col-lg-3">
+            <img class="rounded" src="<%= movie.image %> " alt="Oops!">
+        </div>
+        <div class="col col-lg-9">        
+            <p><strong>Year: </strong><%= movie.year %> </p>
+            <p><strong>Director: </strong><%= movie.director %> </p>
+            <p><strong>Cast: </strong><%= movie.cast %> </p>
+            <p><strong>Storyline: </strong><%= movie.storyLine %> </p>
+            <a href="/movies/<%= movie._id %>/delete "><i class="far fa-trash-alt"></i></a>
+            <a href="/movies/<%= movie._id %>/edit "><i class="far fa-edit"></i></a>
+        </div>
+
+        
+        
+    </div>
+
+</div>
+<%- include("partials/footer") %> 
